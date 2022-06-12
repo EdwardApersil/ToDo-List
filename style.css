@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  /* margin-top: 3rem; */
+  background-color: aqua;
+}
+
+.container {
+  background-color: white;
+  margin: 5rem;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  padding: 14px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: lightgreen;
+  border: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+input {
+  padding: 16px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(155, 155, 155);
+}
+
+::placeholder {
+  color: white;
+}
+
+ul li {
+  background-color: antiquewhite;
+  color: black;
+  height: 40px;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding: 10px;
+  list-style-type: none;
+  font-size: 25px;
+  width: 0 auto;
+}
+.fa-check {
+  margin-left: 4rem;
+  color: green;
+  cursor: pointer;
+}
+.fa-trash {
+  margin-left: 16px;
+  cursor: pointer;
+  color: rgb(209, 20, 108);
+}
+.completed {
+  background-color: lightgreen;
+  text-decoration: line-through;
+  color: blue;
+}
+
+p {
+  font-size: 17px;
+}
